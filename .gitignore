@@ -1,0 +1,6 @@
+/run/
+/build/
+/run/
+/.gradle/loom-cache/
+/.gradle/buildOutputCleanup/
+

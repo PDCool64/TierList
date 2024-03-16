@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "tierlist",
+  "version": "${version}",
+  "name": "TierList",
+  "description": "Says something",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/PDCool/TierList"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.pdcool.tierlist.client.TierListClient"
+    ],
+    "main": [
+      "de.pdcool.tierlist.TierList"
+    ]
+  },
+  "mixins": [
+    "tierlist.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
